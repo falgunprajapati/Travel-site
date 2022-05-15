@@ -1,0 +1,41 @@
+:root {
+    --color-primary:#FFFFFF; 
+    --color-secondary: #FEFAF5;
+    --color-tertiary: #335576;
+    --color-fourth: #DB7A4E;
+    --color-fifth: 
+
+ }
+
+*, html {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%; /*10px*/
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+}
+.btn {
+    border: none;
+    width: 10em;
+    font-size: 1.5em;
+    padding: .5em 1em;
+    background: var(--color-fourth);
+    color: var(--color-primary);
+    border-radius: 100px;
+}
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 6em 0;
+}
+.card{
+    border-radius: 5px;
+}

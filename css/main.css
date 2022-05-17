@@ -101,21 +101,7 @@ width: 40%;
     width: 85%;
     margin: 0 auto;
 }
-.cards__card {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    margin: 4em 2em;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: 5px;
-    box-shadow: 0 4px 4px rgba(0,0,0,.2);
-    position: relative;
-    overflow: hidden;
-    transition: all .3s cubic-bezier(.45,.11,.38,.99);
-}
-.cards__card:hover{
-    transform: scale(1.02);
-}
+
 .cards__card--img {
     width: 100%;
     z-index: -10;
@@ -186,6 +172,69 @@ flex: 0 1 1;
     height: 2em;
     margin-right: 2em;
 }
+.tour{
+   
+    width: 100vw;
+    height: 95vh;
 
+    background-position: center;
+    background-size: cover;
+}
+.tour-hawaii {
+    background-image: url(../assets/images/hawaii.jpg);
+}
+.tour-iceland{
+    background-image: url(../assets/images/iceland.jpg);
+}
+.tour-greece{
+    background-image: url(../assets/images/greece.jpg);
+}
+.tour-container {
+    display: flex;
+    width: 80%;
+    height: max-content;
+    flex-direction: column;
+}
+.tour-container__title{
+    font-size: 7em;
+    
+    color: var(--color-primary);
+}
+.tour-container__cards{
+    display: flex;
+    margin: 0 auto;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.tour-container__cards--card {
+    display: flex;
+    flex-wrap: wrap;
+    
+    background: var(--color-primary);
+    width: 100%;
+    height: max-content;
+    
+}
+
+.tour-container__cards--card-title{
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    margin: 1em auto;
+    border-bottom: 3px solid black;
+    width: 90%;
+    flex: 1;
+}
+.tour-container__cards--card-list > li {
+    font-size: 1.7em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+    background: var(--color-secondary);
+    flex: 1;
+}
 
 

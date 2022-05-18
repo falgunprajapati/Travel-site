@@ -209,11 +209,13 @@ flex: 0 1 1;
 
 .tour-container__cards--card {
     display: flex;
+    align-items: stretch;
+    flex-direction: column;
     flex-wrap: wrap;
     
     background: var(--color-primary);
     width: 100%;
-    height: max-content;
+    height: 100%;
     
 }
 

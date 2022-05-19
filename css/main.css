@@ -120,8 +120,6 @@ position: absolute;
 .tour{
    
     width: 100vw;
-    height: 95vh;
-
     background-position: center;
     background-size: cover;
 }
@@ -159,7 +157,7 @@ position: absolute;
     flex-wrap: wrap;
     
     background: var(--color-primary);
-    width: 100%;
+    width: 90em;
     height: max-content;
     
 }
@@ -194,8 +192,6 @@ footer{
     justify-content: space-between;
     width: 70%;
     flex-wrap: wrap;
-    
-    
 }
 .footer__item{
     display: flex;

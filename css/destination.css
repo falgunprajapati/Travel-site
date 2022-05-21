@@ -20,42 +20,48 @@
     flex-direction: column;
 }
 .tour-container__title{
-    font-size: 7em;
+    font-size: 4.125rem;
     
     color: var(--color-primary);
 }
 .tour-container__cards{
     display: flex;
-    margin: 0 auto;
-    width: 85%;
-    justify-content: space-between;
+    flex-wrap: wrap;
+
+    justify-content: center;
 }
 
 .tour-container__cards--card {
+    padding: .625rem 0;
     display: flex;
     flex-direction: column;
     background: var(--color-primary);
-    width:27em;
-    height: max-content;
+    min-width: 17.5rem;
     
 }
 
 .tour-container__cards--card-title{
-    font-size: 2em;
+    font-size: 1.25rem;
     color: black;
     text-align: center;
-    margin: 1em auto;
+    
+    margin: .625rem auto;
     border-bottom: 3px solid black;
     width: 90%;
     flex: 1;
 }
+
+.tour-container__cards--card-list{
+    padding-bottom: 1.25rem;
+}
 .tour-container__cards--card-list > li {
-    font-size: 1.7em;
+    padding: 0.9375rem 0;
+    text-decoration: none;
+    font-size: 1.0625rem;
     text-align: center;
     display: flex;
     justify-content: center;
-    margin: 1em;
-    padding: 1em;
+    margin: 1rem;
     background: var(--color-secondary);
     flex: 1;
 }

@@ -14,8 +14,6 @@
     
     box-sizing: border-box;
 }
-/* body{
-/*10px*/
 main {
     margin: 0 auto;
     width: 100vw;
@@ -30,14 +28,12 @@ h3 {
 }
 header{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-/* h2 {
-    font-size: 2.5rem;
-} */
 .btn {
     border: none;
-    width: 12em;
+    width: 12rem;
     font-size: .9375rem;
     text-align: center;
     padding: .625rem 2.5rem;
@@ -52,8 +48,7 @@ header{
     padding: 3.75rem 0;
 }
 .card{
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 
 .cards__card {
